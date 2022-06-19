@@ -1,0 +1,66 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__currency/header__currency.css);
+@import url(../blocks/header/_fixed/header_fixed.css);
+
+/* MAIN */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__image-container.css/main__image-container.css);
+@import url(../blocks/main/__text-block/main__text-block.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__line/main__line.css);
+@import url(../blocks/main/__subtitle/main__subtitle.css);
+@import url(../blocks/main/__list/main__list.css);
+@import url(../blocks/main/__list-item/main__list-item.css);
+@import url(../blocks/main/__list-item/_bold/main__list-item_bold.css);
+
+/* BUY-BLOCK */
+@import url(../blocks/buy-block/buy-block.css);
+@import url(../blocks/buy-block/__text/buy-block__text.css);
+@import url(../blocks/buy-block/__compatibility/buy-block__compatibility.css);
+@import url(../blocks/buy-block/__win/buy-block__win.css);
+@import url(../blocks/buy-block/__mac/buy-block__mac.css);
+@import url(../blocks/buy-block/__android/buy-block__android.css);
+@import url(../blocks/buy-block/__ios/buy-block__ios.css);
+@import url(../blocks/buy-block/__description/buy-block__description.css);
+@import url(../blocks/buy-block/__discount/buy-block__discount.css);
+@import url(../blocks/buy-block/__graphic/buy-block__graphic.css);
+@import url(../blocks/buy-block/__product/buy-block__product.css);
+@import url(../blocks/buy-block/__product-icon/buy-block__product-icon.css);
+@import url(../blocks/buy-block/__about-product/buy-block__about-product.css);
+@import url(../blocks/buy-block/__product-name/buy-block__product-name.css);
+@import url(../blocks/buy-block/__rating/buy-block__rating.css);
+@import url(../blocks/buy-block/__star/buy-block__star.css);
+@import url(../blocks/buy-block/__rating-text/buy-block__rating-text.css);
+@import url(../blocks/buy-block/__price/buy-block__price.css);
+@import url(../blocks/buy-block/__old-price/buy-block__old-price.css);
+@import url(../blocks/buy-block/__old-price/_size/buy-block__old-price_size_small.css);
+@import url(../blocks/buy-block/__new-price/buy-block__new-price.css);
+@import url(../blocks/buy-block/__new-price/_size/buy-block__new-price_size_small.css);
+@import url(../blocks/buy-block/__options/buy-block__options.css);
+@import url(../blocks/buy-block/__menu/buy-block__menu.css);
+@import url(../blocks/buy-block/__select-button/buy-block__select-button.css);
+@import url(../blocks/buy-block/__menu-content/buy-block__menu-content.css);
+@import url(../blocks/buy-block/__menu-content/_opened/buy-block__menu-content_opened.css);
+@import url(../blocks/buy-block/__buy-button/buy-block__buy-button.css);
+@import url(../blocks/buy-block/__menu-item/buy-block__menu-item.css);
+@import url(../blocks/buy-block/_opened/buy-block_opened.css);
+
+/* BUY-BLOCK-SMALL */
+@import url(../blocks/buy-block-small/buy-block-small.css);
+@import url(../blocks/buy-block-small/__product-name/buy-block-small__product-name.css);
+@import url(../blocks/buy-block-small/__options/buy-block-small__options.css);
+@import url(../blocks/buy-block-small/__option/buy-block-small__option.css);
+@import url(../blocks/buy-block-small/__buy-button/buy-block-small__buy-button.css);
+@import url(../blocks/buy-block-small/_closed/buy-block-small_closed.css);
+
+/* HYPERLINK */
+@import url(../blocks/hyperlink/hyperlink.css);

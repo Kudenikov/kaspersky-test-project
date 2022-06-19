@@ -1,0 +1,32 @@
+.main__image-container {
+    width: 800px;
+    height: 768px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1180px) {
+    .main__image-container {
+        width: 700px;
+        height: 674px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main__image-container {
+        width: 600px;
+        height: 577px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main__image-container {
+        width: 525px;
+        height: 372px;
+        transform: translate(115px, 0);
+        object-fit: contain;
+    }
+}

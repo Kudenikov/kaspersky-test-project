@@ -1,0 +1,10 @@
+.buy-block__rating {
+    display: flex;
+    margin: 6px 0 0 0;
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__rating {
+        margin: 10px 0 0 0;
+    }
+}

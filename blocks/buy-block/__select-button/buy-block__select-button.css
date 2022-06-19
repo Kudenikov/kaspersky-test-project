@@ -1,0 +1,33 @@
+.buy-block__select-button {
+    width: 191px;
+    height: 48px;
+    border: 2px solid rgba(29, 29, 27, 1);
+    box-sizing: border-box;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buy-block__select-button::after {
+    content: url(../../../images/arrow.svg);
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block__select-button {
+        width: 181px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__select-button {
+        width: 296px;
+        margin: 28px auto 0;
+    }
+}

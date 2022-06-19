@@ -1,0 +1,17 @@
+.main {
+    min-height: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 860px) {
+    .main {
+        min-height: 1600px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main {
+        min-height: 1800px;
+    }
+}

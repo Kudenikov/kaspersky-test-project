@@ -1,0 +1,6 @@
+.buy-block__star {
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
+    margin: 0 5px 0 0;
+}

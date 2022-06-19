@@ -1,0 +1,8 @@
+.hyperlink {
+    opacity: 1;
+    transition: opacity .3s ease-in;
+}
+
+.hyperlink:hover {
+    opacity: .6;
+}

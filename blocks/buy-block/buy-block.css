@@ -1,0 +1,26 @@
+.buy-block {
+    display: flex;
+    flex-direction: column;
+    width: 1172px;
+    height: 152px;
+    margin: 32px auto 0;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block {
+        width: 860px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block {
+        display: none;
+        width: 328px;
+        height: 490px;
+        margin: 15px auto 50px;
+    }
+}

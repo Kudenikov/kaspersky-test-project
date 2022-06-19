@@ -1,0 +1,17 @@
+.buy-block__product {
+    width: 490px;
+    display: flex;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block__product {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__product {
+        width: 100%;
+        height: 114px;
+    }
+}

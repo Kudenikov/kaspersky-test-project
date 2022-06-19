@@ -1,0 +1,11 @@
+.buy-block__menu-item {
+    margin: 0;
+    padding: 0 0 0 12px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.buy-block__menu-item:hover {
+    background: rgba(127, 227, 206, 1);
+}

@@ -1,0 +1,17 @@
+.buy-block-small {
+    font-family: 'Kaspersky Sans', Arial, Helvetica, sans-serif;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 67px;
+    margin: 30px auto;
+    background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%),
+                linear-gradient(0deg, rgba(35, 209, 174, 1), rgba(35, 209, 174, 1));
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block-small {
+        display: flex;
+    }
+}

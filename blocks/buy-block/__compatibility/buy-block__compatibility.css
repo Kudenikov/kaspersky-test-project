@@ -1,0 +1,16 @@
+.buy-block__compatibility {
+    display: flex;
+    width: 490px;
+    height: 40px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__compatibility {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 328px;
+        height: fit-content;
+    }
+}

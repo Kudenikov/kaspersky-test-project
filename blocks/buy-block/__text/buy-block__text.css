@@ -1,0 +1,21 @@
+.buy-block__text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Kaspersky Sans', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block__text {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__text {
+        flex-direction: column;
+        width: 328px;
+        height: 132px;
+    }
+}

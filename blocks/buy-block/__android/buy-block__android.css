@@ -1,0 +1,13 @@
+.buy-block__android {
+    width: 21px;
+    height: 12px;
+    padding: 6px 16px;
+    border-right: 1px solid rgba(102, 102, 102, 1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__android {
+        margin: 13px 0 33px;
+    }
+}

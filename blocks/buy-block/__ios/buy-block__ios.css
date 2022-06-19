@@ -1,0 +1,12 @@
+.buy-block__ios {
+    width: 19px;
+    height: 10px;
+    padding: 7px 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__ios {
+        margin: 13px 0 33px;
+    }
+}

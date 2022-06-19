@@ -1,0 +1,17 @@
+.buy-block__about-product {
+    display: flex;
+    flex-direction: column;
+    margin: 27px 0 0 32px;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block__about-product {
+        margin: 20px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__about-product {
+        margin: 20px 0 0 23px;
+    }
+}

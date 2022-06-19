@@ -1,0 +1,19 @@
+.buy-block__new-price {
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(29, 29, 27, 1);
+    margin: 0 0 0 12px;
+    letter-spacing: -.03em;
+}
+
+@media screen and (max-width: 1180px) {
+    .buy-block__new-price {
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .buy-block__new-price {
+        margin: 0 0 0 20px;
+    }
+}
