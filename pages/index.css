@@ -13,7 +13,7 @@
 
 /* MAIN */
 @import url(../blocks/main/main.css);
-@import url(../blocks/main/__image-container.css/main__image-container.css);
+@import url(../blocks/main/__image-container/main__image-container.css);
 @import url(../blocks/main/__text-block/main__text-block.css);
 @import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__line/main__line.css);
